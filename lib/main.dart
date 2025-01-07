@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         
       ),
-      home: const Splash()
+      home: const HomePage()
     );
   }
 }

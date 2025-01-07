@@ -12,6 +12,7 @@ class Splash extends StatelessWidget {
       splash: Icon(Icons.check_circle_outline_rounded, size: 100.0, color: Colors.white,),
       splashIconSize: 2000.0,
       centered: true,
+      curve: Curves.decelerate,
       backgroundColor: Colors.teal,
       duration: 3100,
     );
