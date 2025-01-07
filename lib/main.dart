@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list_task1/home.dart';
+import 'package:to_do_list_task1/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         
       ),
-      home: const HomePage()
+      home: const Splash()
     );
   }
 }
